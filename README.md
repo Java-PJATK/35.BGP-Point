@@ -28,4 +28,12 @@ p1: [1,2]
 p1: [1,2]   p2: [1,0]   p3: [7,7] 
 ```
 
-This program illustrates a special rôle of the toString method. It is defined in class Object. As we will learn later,6 any class inherits (is an extension) of this special class. Usually, in our classes we override (redefine) this method — it is then called automatically if an object is provided, but a string describing it is needed (for example, it will be called automatically by function println.) As it exists in all classes, either because we redefined it or, if not, we inherited it from class Object, the method toString can be safely invoked on any object. The version from class Object doesn’t return a very useful string, but, what is important, it does exists and returns a string.
+This program illustrates a special role of the `toString` method. It is defined in class `Object`.
+
+As we will learn later (Sec. 10, p. 87), any class inherits (is an extension) of this special class. 
+
+Usually, in our classes we override (redefine) this method — it is then called automatically if an object is provided, but a string describing it is needed (for example, it will be called automatically by function `println`.) 
+
+As it exists in all classes, either because we redefined it or, if not, we inherited it from class `Object`, the method `toString` can be safely invoked on any object. 
+
+The version from class `Object` doesn’t return a very useful string, but, what is important, it does exists and returns a string.  
