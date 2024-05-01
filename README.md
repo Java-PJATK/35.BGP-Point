@@ -1,6 +1,8 @@
 # BGP-Point  
 35 BGP-Point/Point.java 65
 
+Cont. from [33.34.BGI-VerySimple](https://github.com/Java-PJATK/33.34.BGI-VerySimple)
+
 Any constructor can invoke — _but only in its first line_ — another constructor of the same class using `this` with arguments, as if it were the name of a method.  
 
 Such a constructor is said to be a delegating constructor. We can see an example in the following program:  
