@@ -107,6 +107,7 @@ The version from class `Object` doesn’t return a very useful string, but, what
 Next [36.37.BGR-BasicClass](https://github.com/Java-PJATK/36.37.BGR-BasicClass)  
 
 
+
 ---
 Java in a Nutshell  
 
@@ -173,11 +174,9 @@ public class SuperBurrito implements Burrito {
 }
 ```
 
-These cover the basic burritos that can be offered—two different sizes, at
-different prices. Let’s enhance this by adding some optional extras—
-jalapeño chilies and guacamole. The key design point here is to use an
-abstract base class that all of the optional decorating components will
-subclass:
+These cover the basic burritos that can be offered—two different sizes, at different prices. Let’s enhance this by adding some optional extras— jalapeño chilies and guacamole. The key design point here is to use an abstract base class that all of the optional decorating components will subclass:  
+
+
 
 ```java      
 
@@ -200,7 +199,8 @@ public abstract class BurritoOptionalExtra implements Burrito {
     return (burrito.getPrice() + price);
 }
 
-}```
+}
+```
 
 > [!Note]
 > Combining an `abstract` base, `BurritoOptionalExtra`, and a protected constructor means that the only valid way to get a `BurritoOptionalExtra` is to construct an instance of one of the subclasses, as they have public constructors (which also hide the setup of the price of the component from client code).  
@@ -214,4 +214,3 @@ System.out.println("Lunch cost: "+ lunch.getPrice());
 ```
 
 The decorator pattern is very widely used—not least in the JDK utility classes. When we discuss Java I/O in Chapter 10, we will see more examples of decorators in the wild.
-
