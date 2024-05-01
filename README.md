@@ -100,6 +100,8 @@ As we will learn later (Sec. 10, p. 87), any class inherits (is an extension) of
 
 Usually, in our classes we override (redefine) this method — it is then called automatically if an object is provided, but a string describing it is needed (for example, it will be called automatically by function `println`.) 
 
+Next [36.37.BGR-BasicClass](https://github.com/Java-PJATK/36.37.BGR-BasicClass)  
+
 As it exists in all classes, either because we redefined it or, if not, we inherited it from class `Object`, the method `toString` can be safely invoked on any object. 
 
 The version from class `Object` doesn’t return a very useful string, but, what is important, it does exists and returns a string.  
