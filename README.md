@@ -109,7 +109,9 @@ Next [36.37.BGR-BasicClass](https://github.com/Java-PJATK/36.37.BGR-BasicClass)
 
 
 ---
-Java in a Nutshell  
+
+
+[Java in a Nutshell: A Desktop Quick Reference - Benjamin J. Evans & David Flanagan](https://www.goodreads.com/book/show/19484847-java-in-a-nutshell)
 
 ## Composition Versus Inheritance  
 
